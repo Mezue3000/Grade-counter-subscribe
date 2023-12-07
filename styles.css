@@ -27,7 +27,6 @@ body {
     border-radius: 20px;
     background-color: black;
     padding:30px;
-    /* margin-top: 120px; */
     margin-left: 250px;
     width: 700px;
 }
@@ -88,4 +87,18 @@ body {
     font-size: 25px;
     font-family: bolder;
     color: wheat;
+  
+}
+
+
+.dive1 {
+    background-color: brown;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+
+.newsub {
+    background: white;
+    color: black;
 }

@@ -1,9 +1,11 @@
-// Grab our input
+// Grab the input form element
    let inputElement = document.querySelector('.js-input');
     inputElement.value = '';
+
  // Display our result on the web-page using dom
    const result = document.querySelector('.js-para')
-// Function to invoke the grade button
+
+// Function to invoke the grade button using onclick
     function checkGrade () {
         if (inputElement.value >= 0 && inputElement.value <= 40) {
             result.innerText = `your score is ${inputElement.value}, your grade is F, 
@@ -26,6 +28,21 @@
         }
            inputElement.value = ''; 
     };
+
+// Grab the subscribe button
+    const buttonElement = document.querySelector('.js-subscribe');
+    
+// Add eventlistener
+    buttonElement.addEventListener('click', () => {
+        if (buttonElement.innerText === 'Subscribe') {
+            buttonElement.innerText = 'Subscribed';
+            buttonElement.classList.add('newsub');
+        } else {
+            buttonElement.innerText = 'Subscribe'
+            buttonElement.classList.remove('newsub')
+        }
+    });
+
 
 
 
