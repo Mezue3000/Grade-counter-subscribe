@@ -15,7 +15,7 @@
             you Passed 😌😌😌`
         } else if (inputElement.value > 49 && inputElement.value <= 69) {
             result.innerText = `your score is ${inputElement.value}, your grade is C, 
-            Big Credit to you: pls hit the subscibe button 😀😀😀`
+            Big Credit to you: pls hit the subscribe button 😀😀😀`
         } else if (inputElement.value > 69 && inputElement.value <= 100) {
             result.innerText = `your score is ${inputElement.value}, your grade is A, 
             Big Alpha to you: pls hit the subscribe button 😍😍😍`
@@ -31,7 +31,7 @@
 
 // Grab the subscribe button
     const buttonElement = document.querySelector('.js-subscribe');
-    
+
 // Add eventlistener
     buttonElement.addEventListener('click', () => {
         if (buttonElement.innerText === 'Subscribe') {
